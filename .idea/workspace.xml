@@ -15,7 +15,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Nerds" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -40,6 +40,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577985251022</updated>
       <workItem from="1577985252310" duration="749000" />
+      <workItem from="1577986121331" duration="14000" />
     </task>
     <servers />
   </component>
@@ -51,7 +52,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
