@@ -271,6 +271,23 @@ a {
     list-style: none;
 }
 
+.slogan b {
+	font-size: 48px;
+	line-height: 48px;
+	text-align: center;
+}
+
+.our-brands h2,
+.our-prices h2,
+.about-us h2 {
+	font-size: 24px;
+	line-height: 30px;
+}
+
+ul.our-brands-list {
+	list-style: none;
+}
+
 .main-footer {
 	color: #ffffff;
 
