@@ -16,7 +16,7 @@
 			<ul class="site-navigation">
 				<li><a href="info.html">Информация</a></li>
 				<li><a href="news.html">Новости</a></li>
-				<li><a href="price.html">Прайс-лист</a></li>
+				<li class="site-navigation-active"><a href="price.html" >Прайс-лист</a></li>
 				<li><a href="catalog.html">Магазин</a></li>
 				<li><a href="contacts.html">Контакты</a></li>
 			</ul>
@@ -33,52 +33,48 @@
 			<li><a href="index.html">ГЛАВНАЯ</a></li>
 			<li class="breadcrumbs-current">ПРАЙС-ЛИСТ</li>
 		</ul>
-		<div class="slogan">
-			<b>ИСТИННО МУЖСКАЯ КЛАССИКА</b>
-		</div>
+		<section class="inner-content">
+			<h2 class="big-heading">ИСТИННО МУЖСКАЯ КЛАССИКА</h2>
+			<div class="inner-columns">
+				<div class="inner-column-left">
+					<h2>МЫ ИСПОЛЬЗУЕМ ТОЛЬКО<br> ЛУЧШИЕ СРЕДСТВА</h2>
+					<ul class="custom-list-1">
+						<li>Baxter of California</li>
+						<li>Mr Natty</li>
+						<li>Suavecito</li>
+						<li>Malin+Goetz</li>
+					</ul>
+				</div>
+				<div class="inner-column-right">
+					<h2>ЦЕНЫ НА УСЛУГИ<br> НАШИХ МАСТЕРОВ:</h2>
+					<table class="custom-table-1">
+						<tr>
+							<td>СТРИЖКА</td>
+							<td>1500 ₽</td>
+						</tr>
+						<tr>
+							<td>СТРИЖКА БОРОДЫ</td>
+							<td>500 ₽</td>
+						</tr>
+						<tr>
+							<td>НАКРУТКА УСОВ</td>
+							<td>350 ₽</td>
+						</tr>
+					</table>
+				</div>
+			</div>
 
-		<div class="catalog-columns">
-			<section class="our-brands">
-				<h2>МЫ ИСПОЛЬЗУЕМ ТОЛЬКО<br>
-					ЛУЧШИЕ СРЕДСТВА
-				</h2>
-				<ul class="our-brands-list">
-					<li>Baxter of California</li>
-					<li>Mr Natty</li>
-					<li>Suavecito</li>
-					<li>Malin+Goetz</li>
-				</ul>
-			</section>
-
-			<section class="our-prices">
-				<h2>ЦЕНЫ НА УСЛУГИ<br>
-					НАШИХ МАСТЕРОВ:
-				</h2>
-				<table class="prices">
-					<tr>
-						<td>СТРИЖКА</td>
-						<td>1500 ₽</td>
-					</tr>
-					<tr>
-						<td>СТРИЖКА БОРОДЫ</td>
-						<td>500 ₽</td>
-					</tr>
-					<tr>
-						<td>НАКРУТКА УСОВ</td>
-						<td>350 ₽</td>
-					</tr>
-				</table>
-			</section>
-		</div>
-
-		<section class="about-us">
-			<h2>НЕСКОЛЬКО СЛОВ О НАС:</h2>
-			<div class="catalog-columns">
-				<p>Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем качество.</p>
-				<p>Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!</p>
-			<div>
+			<div class="inner-columns">
+				<h2>НЕСКОЛЬКО СЛОВ О НАС:</h2>
+				<div class="inner-column-left">
+					<p class="short-text">Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем качество.</p>
+				</div>
+				<div class="inner-column-right">
+					<p class="short-text">Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!</p>
+				</div>
+			</div>
 		</section>
-		</main>
+	</main>
 	<footer class="main-footer">
 		<div class="container">
 			<p class="footer-contacts">
@@ -119,26 +115,32 @@
 
 	<section class="modal modal-login">
 		<h2>Личный кабинет</h2>
-		<p>Введите пожалуйста свой логин и пароль</p>
+		<p class="modal-description">Введите пожалуйста свой логин и пароль</p>
 		<form class="login-form" action="https://echo.htmlacademy.ru" method="post">
 			<p>
-				<label class="vissualy-hidden" for="user-login">Логин</label>
+				<label class="visually-hidden" for="user-login">Логин</label>
 				<input class="login-icon-user" id="user-login" type="text" name="login" placeholder="Логин">
 			</p>
 			<p>
-				<label class="vissualy-hidden" for="user-password">Пароль</label>
-				<input class="login-icon-password" id="user-password" type="password" name="password" placeholder="Пароль">
+				<label class="visually-hidden" for="user-password">Пароль</label>
+				<input class="login-icon-password" id="user-password" type="password" placeholder="Пароль">
 			</p>
-			<p class="login-password-info">
-				<label for="login-password-info">
-					<input type="checkbox" name="remember" class="vissualy-hidden" id="login-password-info">
+			<p class="login-help">
+				<label class="login-checkbox">
+					<input type="checkbox" name="remember" class="visually-hidden">
 					<span class="checkbox-indicator"></span>
 					Запомните меня
 				</label>
-				<a class="restore" href="#">Я забыл пароль!</a>
+				<a class="restore" href="#"> забыл пароль!</a>
 			</p>
 			<button class="button" type="submit">Войти</button>
 		</form>
+		<button class="modal-close" type="button"></button>
+	</section>
+
+	<section class="modal modal-map">
+		<h2 class="visually-hidden">Как до нас добраться</h2>
+		<p><img src="img/map.png" width="780px" height="560px" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург"><p>
 		<button class="modal-close" type="button">Закрыть</button>
 	</section>
 </body>
